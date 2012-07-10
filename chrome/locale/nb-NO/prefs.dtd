@@ -1,0 +1,85 @@
+<!ENTITY status4evar.window.title "Status-4-Evar innstillinger">
+<!ENTITY status4evar.pane.status "Status">
+<!ENTITY status4evar.pane.progress "Fremdrift">
+<!ENTITY status4evar.pane.download "Nedlasting">
+<!ENTITY status4evar.pane.addonbar "Utvidelseslinje">
+<!ENTITY status4evar.pane.advanced "Avansert">
+<!ENTITY status4evar.tab.general "Generelt">
+<!ENTITY status4evar.tab.toolbar "Verktøylinje">
+<!ENTITY status4evar.tab.urlbar "Adresselinje">
+<!ENTITY status4evar.tab.popup "Sprettopp">
+<!ENTITY status4evar.tab.tabs "Faner">
+<!ENTITY status4evar.option.none "Ingen">
+<!ENTITY status4evar.option.toolbar "Verktøylinje">
+<!ENTITY status4evar.option.urlbar "Adresselinje">
+<!ENTITY status4evar.option.popup "Sprettopp">
+<!ENTITY status4evar.option.tooltip "Verktøytips">
+<!ENTITY status4evar.option.bottom "Bunn">
+<!ENTITY status4evar.option.top "Topp">
+<!ENTITY status4evar.option.fill "Fyll">
+<!ENTITY status4evar.option.dlcount "Antall nedlastinger">
+<!ENTITY status4evar.option.dltime "Tid igjen">
+<!ENTITY status4evar.option.both "Begge">
+<!ENTITY status4evar.option.right "Høyre">
+<!ENTITY status4evar.option.left "Venstre">
+<!ENTITY status4evar.option.fixed "Fast">
+<!ENTITY status4evar.option.simple "Enkel">
+<!ENTITY status4evar.option.advanced "Avansert">
+<!ENTITY status4evar.option.browse "Bla gjennom">
+<!ENTITY status4evar.option.clear "Tøm">
+<!ENTITY status4evar.option.center "Midtstilt">
+<!ENTITY status4evar.option.offset "Offset">
+<!ENTITY status4evar.option.repeat "Gjenta">
+<!ENTITY status4evar.option.no-repeat "Ingen gjentakelse">
+<!ENTITY status4evar.option.space "Mellomrom">
+<!ENTITY status4evar.option.round "Avrund">
+<!ENTITY status4evar.unit.seconds "sekunder">
+<!ENTITY status4evar.unit.px "px">
+<!ENTITY status4evar.status.general.status.caption "Statustekst">
+<!ENTITY status4evar.status.label "Vis status i:">
+<!ENTITY status4evar.status.timeout.label "Skjul status etter">
+<!ENTITY status4evar.status.default.label "Vis standard status">
+<!ENTITY status4evar.status.network.label "Vis nettverksstatus">
+<!ENTITY status4evar.status.network.xhr.label "Vis bakgrunnsnettverksstatus">
+<!ENTITY toolkit.dom.status.change.label "Tillat nettsider å endre teksten på statuslinjen">
+<!ENTITY status4evar.status.general.linkOver.caption "Lenker">
+<!ENTITY status4evar.status.linkOver.label "Vis lenker i:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Forsinkelse før lenker vises:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Forsinkelse før lenker skjules:">
+<!ENTITY status4evar.status.toolbar.maxLength.label "Maks lengde på statustekst:">
+<!ENTITY status4evar.status.urlbar.align.label "Justering av status:">
+<!ENTITY status4evar.status.urlbar.color.label "Tekstfarge:">
+<!ENTITY status4evar.status.currentUrl "Gjeldende adresse">
+<!ENTITY status4evar.status.statusText "Statustekst">
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Firefox-funksjoner">
+<!ENTITY browser.urlbar.formatting.enabled.label "Aktiver domeneutheving">
+<!ENTITY browser.urlbar.trimming.enabled.label "Aktiver protokollskjuling (http:// og ftp://)">
+<!ENTITY status4evar.status.popup.invertMirror.label "Standard på høyre side">
+<!ENTITY status4evar.status.popup.findMirror.label "Start på motsatt side når søkelinjen er åpen">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Bytt sider når musepekeren er over">
+<!ENTITY status4evar.progress.style.label "Bruk egendefinert stil">
+<!ENTITY status4evar.progress.urlbar.enable.label "Vis fremdriftsindikator i adresselinjen">
+<!ENTITY status4evar.progress.urlbar.line.label "Linjestil:">
+<!ENTITY status4evar.progress.toolbar.force.label "Vis alltid verktøylinjenelement">
+<!ENTITY status4evar.editor.label "Redigeringsprogram:">
+<!ENTITY status4evar.editor.css.color.label "Farge:">
+<!ENTITY status4evar.editor.css.image.label "Bilde:">
+<!ENTITY status4evar.editor.css.image.repeat "Gjenta">
+<!ENTITY status4evar.editor.css.image.position "Posisjon">
+<!ENTITY status4evar.editor.css.image.offset "Offset">
+<!ENTITY status4evar.download.force.label "Vis alltid nedlastingsstatusknappen">
+<!ENTITY status4evar.download.label.force.label "Vis alltid knappeteksten">
+<!ENTITY status4evar.download.label.label "Tekst på nedlastingsstatusknapp:">
+<!ENTITY status4evar.download.tooltip.label "Nedlastingsstatusknapp verktøytips:">
+<!ENTITY status4evar.download.progress.label "Vis nedlastingsfremgang på knappen">
+<!ENTITY status4evar.download.progress.average.label "Vis gjennomsnittlig nedlastingsfullføring">
+<!ENTITY status4evar.download.progress.max.label "Vis mest fullførte nedlasting">
+<!ENTITY status4evar.download.progress.min.label "Vist minst fullførte nedlasting">
+<!ENTITY status4evar.download.color.active.label "Farge på fremdriftsindikator for aktive nedlastinger:">
+<!ENTITY status4evar.download.color.paused.label "Farge på fremdriftsindikator for nedlastinger satt på pause:">
+<!ENTITY status4evar.addonbar.borderStyle "Bruk alternative kanter for verktøylinje">
+<!ENTITY status4evar.addonbar.windowGripper "Vis gripeområdet for endring av vindusstørrelse">
+<!ENTITY status4evar.addonbar.closeButton "Vis knappen lukk">
+<!ENTITY status4evar.advanced.warning "Disse avanserte innstillinger kan forårsake problemer med Status-4-Evar eller andre utvidelser. Modifiser på din egen risiko.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Forsøk å tvinge XBL bindingen for adresselinjen.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Bare velg dette hvis du har problemer med at adresselinje-fremdriftsindikatoren eller statusteksten ikke blir vist riktig. Dette vil potensielt bryte andre utvidelser som forsøker å sette en XBL binding på adresselinjen.">

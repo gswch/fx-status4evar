@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Status-4-Evar.
+   -
+   - The Initial Developer of the Original Code is 
+   - Matthew Turnbull <sparky@bluefang-logic.com>.
+   -
+   - Portions created by the Initial Developer are Copyright (C) 2011
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   - 
+   - ***** END LICENSE BLOCK ***** -->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+
+		<!-- Info -->
+
+		<em:creator>Sparky Bluefang</em:creator>
+		<em:description>Status widgets and progress indicators for Firefox 4+</em:description>
+		<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+		<em:iconURL>chrome://status4evar/skin/s4e32.png</em:iconURL>
+		<em:id>status4evar@caligonstudios.com</em:id>
+		<em:name>Status-4-Evar</em:name>
+		<em:optionsURL>chrome://status4evar/content/prefs.xul</em:optionsURL>
+		<em:type>2</em:type>
+		<em:version>2012.01.14.17</em:version>
+
+		<!-- Localizations -->
+
+		<em:translator>Martin - Varna [bg-BG]</em:translator>
+		<em:localized><!-- bg-BG -->
+			<Description>
+				<em:locale>bg-BG</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Лента за състоянието, за Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Michal Stanke [cs]</em:translator>
+		<em:localized><!-- cs -->
+			<Description>
+				<em:locale>cs</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Stavová udělátka a indikátory pro Firefox4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Joergen [da]</em:translator>
+		<em:localized><!-- da -->
+			<Description>
+				<em:locale>da</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Status-widgets og forløbsindikatorer til Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>o.roth (ReinekeFux) [de]</em:translator>
+		<em:translator>Archaeopteryx [de]</em:translator>
+		<em:translator>Endor [de]</em:translator>
+		<em:localized><!-- de -->
+			<Description>
+				<em:locale>de</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Verschiedene Status- und Fortschrittsanzeige-Elemente für Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>milupo [dsb]</em:translator>
+		<em:localized><!-- dsb -->
+			<Description>
+				<em:locale>dsb</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Statusowe asistenty a póstupowe grědy za Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Γιώργος Μαλαμάς [el]</em:translator>
+		<em:localized><!-- el -->
+			<Description>
+				<em:locale>el</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Οπτικά στοιχεία κατάστασης και ενδείκτες προόδου για Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Milupo [eo]</em:translator>
+		<em:localized><!-- eo -->
+			<Description>
+				<em:locale>eo</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Stataj fenestraĵoj kaj plenumindikiloj por Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>José I. Plaza [es-ES]</em:translator>
+		<em:translator>Carlos Mella [es-ES]</em:translator>
+		<em:localized><!-- es-ES -->
+			<Description>
+				<em:locale>es-ES</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Incluye indicadores de estado y de progreso para Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Jojaba [fr]</em:translator>
+		<em:localized><!-- fr -->
+			<Description>
+				<em:locale>fr</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Outils indiquant l'état et barres de progressions pour Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>SiiiE [he]</em:translator>
+		<em:localized><!-- he -->
+			<Description>
+				<em:locale>he</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>יישומוני מצב ומדדי התקדמות עבור Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Milupo [hsb]</em:translator>
+		<em:localized><!-- hsb -->
+			<Description>
+				<em:locale>hsb</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Statusowe asistenty a postupowe hrjady za Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Kozák Csaba (WonderCsabo) [hu]</em:translator>
+		<em:localized><!-- hu -->
+			<Description>
+				<em:locale>hu</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Állapot- és betöltésjelző elemek Firefox 4+ -hoz</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Emanuele Alimonda [it-IT]</em:translator>
+		<em:localized><!-- it-IT -->
+			<Description>
+				<em:locale>it-IT</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Elementi della barra di stato e indicatori di avanzamento per Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>能美涼子 [ja-JP]</em:translator>
+		<em:translator>k2jp [ja-JP]</em:translator>
+		<em:localized><!-- ja-JP -->
+			<Description>
+				<em:locale>ja-JP</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Firefox 4以降でステータスと進行状態を表示します。</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Håvar Ingmund Henriksen [nb-NO]</em:translator>
+		<em:localized><!-- nb-NO -->
+			<Description>
+				<em:locale>nb-NO</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Statusfunksjoner og fremdriftsindikator for Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Martijn Weisbeek [nl]</em:translator>
+		<em:localized><!-- nl -->
+			<Description>
+				<em:locale>nl</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Hulpmiddelen voor de statusbalk voor Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Leszek(teo)Życzkowski [pl]</em:translator>
+		<em:translator>Leepa [pl]</em:translator>
+		<em:translator>momus [pl]</em:translator>
+		<em:localized><!-- pl -->
+			<Description>
+				<em:locale>pl</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Informacje o statusie i wskaźniki postępu dla Firefoksa 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Gutierrez PS [pt-BR]</em:translator>
+		<em:localized><!-- pt-BR -->
+			<Description>
+				<em:locale>pt-BR</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Widgets de status e indicadores de progresso para o Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Cătălin Zamfirescu (x10firefox) [ro]</em:translator>
+		<em:localized><!-- ro -->
+			<Description>
+				<em:locale>ro</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Instrumente de indicare a stări și bare de progres pentru Firefox 4+.</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Пирятинский Виталий [ru]</em:translator>
+		<em:localized><!-- ru -->
+			<Description>
+				<em:locale>ru</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Элементы и индикаторы бывшей строки состояния для Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Rancher [sr]</em:translator>
+		<em:localized><!-- sr -->
+			<Description>
+				<em:locale>sr</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Елементи за стање и показатељи напретка за Фајерфокс 4.</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Mikael Hiort af Ornäs [sv-SE]</em:translator>
+		<em:localized><!-- sv-SE -->
+			<Description>
+				<em:locale>sv-SE</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Statusfunktioner och förloppsindikatorer för Firefox 4+</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>ckk [tr]</em:translator>
+		<em:translator>omrakin [tr]</em:translator>
+		<em:localized><!-- tr -->
+			<Description>
+				<em:locale>tr</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Firefox 4 + için durum widgetleri ve ilerleme göstergeleri</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>Cye3s [zh-CN]</em:translator>
+		<em:translator>yongdong7 [zh-CN]</em:translator>
+		<em:localized><!-- zh-CN -->
+			<Description>
+				<em:locale>zh-CN</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>为Firefox 4+提供状态栏部件和进度条</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<em:translator>velociraptor [zh-TW]</em:translator>
+		<em:localized><!-- zh-TW -->
+			<Description>
+				<em:locale>zh-TW</em:locale>
+				<em:name>Status-4-Evar</em:name>
+				<em:description>Firefox 4+ 專用的狀態小工具和載入進度計</em:description>
+				<em:creator>Sparky Bluefang</em:creator>
+				<em:homepageURL>http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965</em:homepageURL>
+			</Description>
+		</em:localized>
+
+		<!-- Targets -->
+
+		<em:targetApplication><!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>4.0</em:minVersion>
+				<em:maxVersion>12.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+</RDF>
