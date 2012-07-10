@@ -50,7 +50,7 @@
 		<em:name>Status-4-Evar</em:name>
 		<em:optionsURL>chrome://status4evar/content/prefs.xul</em:optionsURL>
 		<em:type>2</em:type>
-		<em:version>2012.02.28.00b</em:version>
+		<em:version>2012.04.21.13</em:version>
 
 		<!-- Localizations -->
 
