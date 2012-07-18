@@ -52,20 +52,19 @@
 				<children includes="image|deck|stack|box">
 					<xul:image class="autocomplete-icon" allowevents="true"/>
 				</children>
+				<!-- everything in content element except this stack element is equal to urlbarBindings.xml#urlbar -->
 				<xul:stack anonid="stack" class="urlbar-stack" flex="1">
 					<xul:vbox class="urlbar-progress-layer" xbl:inherits="pack=pmpack" flex="1">
 						<children includes="progressmeter"/>
 					</xul:vbox>
 					<xul:hbox anonid="over-link-layer" class="urlbar-textbox-container urlbar-over-link-layer" xbl:inherits="overlinkstate" flex="1">
-						<xul:hbox class="urlbar-origin-box" align="center" flex="1">
-							<xul:label anonid="origin-label" class="urlbar-origin-label" flex="1" crop="end"/>
-						</xul:hbox>
-						<xul:hbox anonid="over-link-box" class="urlbar-over-link-box" align="center">
-							<xul:label anonid="over-link-host-label" class="urlbar-over-link-host-label"/>
-							<xul:label anonid="over-link-path-label" class="urlbar-over-link-path-label" flex="1"/>
-						</xul:hbox>
 					</xul:hbox>
+						<!--xul:hbox class="urlbar-origin-box" align="center" flex="1">
+							<xul:label anonid="origin-label" class="urlbar-origin-label" flex="1" crop="end"/>
+						</xul:hbox-->
 					<xul:hbox class="urlbar-textbox-container urlbar-input-layer" xbl:inherits="focused,overlinkstate" flex="1">
+						<!-- in urlbarBindings.xml#urlbar #textbox-input-box & following children element are at the stack element's position -->
+						<!-- here children elements are nested in hboxes with xbl:inherits=overlinkstate so they are hidden when in overlinkstate -->
 						<xul:hbox anonid="textbox-input-box" class="textbox-input-box urlbar-input-box" flex="1" xbl:inherits="tooltiptext=inputtooltiptext">
 							<xul:hbox class="urlbar-input-layer-children" xbl:inherits="overlinkstate">
 								<children/>
@@ -75,6 +74,11 @@
 						</xul:hbox>
 						<xul:hbox class="urlbar-input-layer-children" xbl:inherits="overlinkstate">
 							<children includes="hbox"/>
+						</xul:hbox>
+					<!--/xul:hbox-->
+						<xul:hbox anonid="over-link-box" class="urlbar-over-link-box" align="center">
+							<xul:label anonid="over-link-host-label" class="urlbar-over-link-host-label"/>
+							<xul:label anonid="over-link-path-label" class="urlbar-over-link-path-label" flex="1"/>
 						</xul:hbox>
 					</xul:hbox>
 				</xul:stack>
@@ -222,7 +226,7 @@
 						case "fade-in":
 							style = window.getComputedStyle(this._overLinkLayer);
 							this._overLinkTransitioning = style.opacity != 1;
-							this._clearFormatting();
+							//this._clearFormatting();
 							this.setAttribute("overlinkstate", aVal);
 							break;
 						case "fade-out":
@@ -231,18 +235,18 @@
 							this.setAttribute("overlinkstate", aVal);
 							if(!this._overLinkTransitioning)
 							{
-								this.formatValue();
+								//this.formatValue();
 							}
 							break;
 						case "showing":
 							this._overLinkTransitioning = false;
 							this.setAttribute("overlinkstate", aVal);
-							this._clearFormatting();
+							//this._clearFormatting();
 							break;
 						default:
 							this._overLinkTransitioning = false;
 							this.removeAttribute("overlinkstate");
-							this.formatValue();
+							//this.formatValue();
 							break;
 					}
 				]]></body>

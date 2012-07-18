@@ -235,7 +235,7 @@ splitter.status4evar-status-splitter:not(:hover)
  * Location bar status
  */
 
-.urlbar-over-link-layer
+/*.urlbar-over-link-layer
 {
 	opacity: 0;
 }
@@ -330,7 +330,10 @@ splitter.status4evar-status-splitter:not(:hover)
 #urlbar[s4esalign="left"] .urlbar-over-link-box
 {
 	-moz-padding-start: 1px;
-}
+}*/
+.urlbar-input-layer html|input.urlbar-input { text-overflow: ellipsis; }
+
+.urlbar-input-layer[overlinkstate="fade-in"] .urlbar-input-layer-children { display: none; }
 
 .urlbar-over-link-host-label,
 .urlbar-over-link-path-label
